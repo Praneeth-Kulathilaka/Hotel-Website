@@ -1,0 +1,98 @@
+body{
+    min-height: 100vh;
+}
+.contact{
+    display: flex;
+    width: 100vw;
+    position: relative;
+    padding: 10px;
+    
+}
+.top{
+    padding-top: 130px;
+}
+/*form*/
+.forum{
+    padding-left: 70vh;
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    line-height: 25px;
+}
+.form_item{
+    padding-bottom: 15px;
+}
+.form_item label{
+    display: block;
+}
+.form_item input[type="text"], .form_item input[type = "email"], .form_item textarea{
+    width: 100%;
+    padding: 10px;
+}
+.button{
+    border:3px #000 solid;
+    padding: 15px 10px;
+    width: 250px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.button:hover{
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    border: 3px #fff solid;
+}
+.about{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    padding: 10px;
+}
+.about h2{
+    font-family: Garamond;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-left: 50%;
+    margin-top: 10px;
+    color: #000;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    -webkit-text-stroke: 0.5px #000;
+}
+.about p{
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 15px;
+}
+.about ul{
+    list-style: none;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+.about li img{
+    padding: 5px;
+}
+.mapouter{
+    
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    text-align:right;
+    height:360px;
+    width:400px;
+}
+.gmap_canvas {
+    border: 2px #000 solid;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    background:none!important;
+    height:360px;
+    width:480px;
+
+}
